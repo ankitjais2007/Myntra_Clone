@@ -1,0 +1,116 @@
+/* ------ header----------- */
+ 
+.action_icon{
+    color:black
+}
+.action_name{
+    font-size: 12px;
+    font-weight: 700;
+    color: #000;
+}
+.bag-item-count{
+    white-space: nowrap;
+    text-align: center;
+    line-height: 18px;
+    padding: 0 6px;
+    height: 18px;
+    background: #ff3f6c;
+    
+    border-radius: 50%;
+    font-size: 12px;
+    color: #fff;
+    font-weight: 700;
+    
+        
+}
+
+
+/* ------ main section -------*/
+.items-container{
+    width: 80%;
+    margin: 40px 10%;
+
+     display:flex;
+    justify-content:space-evenly;
+    flex-wrap:wrap;
+
+}
+.item-container{
+    max-width:250px;
+    margin:10px;
+
+
+}
+.item-image{
+    width:100%;
+}
+.rating{
+    font-size: 12px;
+    font-weight: 700;
+
+    line-height: 1;
+    color: #282c3f;
+    margin-bottom: 6px;
+
+}
+.company-name{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1;
+    color: #282c3f;
+    margin-bottom: 3px;
+}
+.item-name{
+    
+    color: #535766;
+    font-size: 14px;
+    line-height: 1;
+    font-weight: 400;
+    margin-bottom:5px;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+
+    
+}
+.price{
+    margin-bottom:4px;
+   
+}
+.current-price{
+    font-size:14px;
+    font-weight:700;
+    color:#282c3f;
+      
+}
+.original-price{
+    text-decoration: line-through ;
+    color: #7e818c;
+    font-weight: 45000;
+    margin-left: 5px;
+    font-size: 13px;
+
+}
+.discount{
+    color: #ff905a;
+    font-weight: 400;
+    font-size: 12px;
+    margin-left: 5px;
+}
+.btn-add-bag{
+    background-color:greenyellow;
+    border:none;
+    border-radius:10px;
+    width: 100%;
+    font-weight:500;
+    font-size: 18px;
+    padding: 8px 15px;
+    cursor:pointer;
+
+}
+
+
+
+
+   
+/* ---------footer section------- */
